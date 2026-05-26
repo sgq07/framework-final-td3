@@ -1,0 +1,99 @@
+/* ------------------------------------- */
+/* Reinicio de los estilos para borrar modificaciones del navegador */
+/* ------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+/* ------------------------------------- */
+/* Estilos para el HOME */
+/* ------------------------------------- */
+
+body{
+    background-color: #6E1F1B;
+}
+p{font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  color: #E8DCC2;
+}
+h1{font-family: cinzel;
+    font-size: 48pt;
+    text-align: center;
+    color: #E8DCC2;
+}
+
+h2{
+    font-family: "cormorant garamond";
+    font-size: 24pt;
+    text-align: center;
+    font-style: italic;
+    color: #E8DCC2;
+}
+h3{
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  text-align: center;
+  color: #E8DCC2;
+}
+ol{font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  color: #E8DCC2;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    padding: 1% 3%;
+    text-decoration: none;
+    color: #E8DCC2;
+    background-color: #6E1F1B;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+/* ------------------------------------- */
+/* Estilos para las secciones */
+/* ------------------------------------- */
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+header{
+    background-color: #6E1F1B;
+    padding: 5%;
+}
+
+nav{
+    background-color: #B08A52;
+    padding: 5%;
+
+}
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 600px; /* Esta propiedad se puede cambiar según el alto del contenido */ 
+    background-color: #6E1F1B;
+    padding: 5%;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #B08A52;
+    padding: 1%;
+    text-align: center;
+}
+
+
